@@ -1,0 +1,44 @@
+# Version control
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docs (not needed at runtime)
+README.md
+*.md
+
+# Tests
+tests/
+test_*.py
+*_test.py
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Build artefacts
+dist/
+build/
+*.egg-info/
